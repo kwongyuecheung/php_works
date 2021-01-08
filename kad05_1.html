@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>課題05</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="kad.css">
+    </head>
+    <body>
+        <div id="contents">
+            <form method="POST" action="kad05_2.php">
+                <label>名前：<input type="text" name="namae" size="20" autofocus>(20文字以内)</label>
+                <br>
+                クラス:
+                <select name="class">
+                    <option value="SK2A">SK2A</option>
+                    <option value="IE2A">IE2A</option>
+                    <option value="SK2A">SK2B</option>
+                    <option value="IE2B">IE2B</option>
+                </select>
+                <label>No.</label><input type="text" name="no" size="1">
+                <br>
+                <input type="radio" name="gender" value="男性"checked><label>男性</label>
+                <input type="radio" name="gender" value="女性"><label>女性</label>
+                <br>
+                <label>E-mail：<input type="text" name="address"></label>
+                <br>
+                <input type="submit" value="送信">
+                <input type="reset" value="取消">
+            </form>
+        </div>
+    </body>
+</html>

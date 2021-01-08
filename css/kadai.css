@@ -1,0 +1,53 @@
+body{
+	scrollbar-face-color: #ffffff;       /* 表面の色 */
+	scrollbar-3dlight-color: #e9e0d1;    /* 左端と上端の色 */
+	scrollbar-highlight-color: #ffffff;  /* ハイライトの色 */
+	scrollbar-shadow-color: #ffffff;     /* 影の色 */
+	scrollbar-darkshadow-color: #e9e0d1; /* 右端と下端 */
+	scrollbar-arrow-color: #e9e0d1;      /* 矢印の色 */
+	scrollbar-track-color: #ffffff;      /* バーの背景の色 */
+}
+
+div.explain{
+	width:600;
+	text-align:left;
+	border:1px solid #000000;
+	padding:6px 8px;
+	margin-bottom:10px;
+	font-size:9pt;
+	background-color:#ffffff;
+	border-color:#656567;
+	color:#000000;	
+}
+
+div.title{
+	font-size:11pt;
+	font-weight:700;
+}
+
+div.content{
+	color:89100a;
+}
+
+div.content2{
+	padding-left:10px;
+
+}
+
+td{
+	font-size:8pt;
+}
+
+th{
+	font-size:8pt;
+	color:#89100a;
+	
+}
+iframe{
+	border-style:solid;
+	border-color:#656567;
+	border-top-width:1px;         /* 上の枠 */
+	border-bottom-width:1px;      /* 下の枠 */
+	border-left-width:1px;        /* 左の枠 */
+	border-right-width:1px; 
+}

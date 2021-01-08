@@ -1,0 +1,32 @@
+div.titlebox1 { 
+	float:left;
+}
+
+div.titlebox2 {
+	padding-top:7px;
+	float:right;
+	text-align:right;
+	text-valign:bottom;
+	font-size:9pt;
+}
+
+a{
+	color:#89100a;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#89100a;
+	text-decoration:none;
+}
+
+a:active {
+	color:#89100a;
+	text-decoration:none;
+
+}
+
+a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
